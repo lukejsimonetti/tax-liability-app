@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Zeyada');
+
+.Select-menu-outer {
+    z-index: 5 !important
+}
+.form-group.has-error .Select-control,
+.form-group.has-error .Select-menu-outer {
+    border-color: #a94442;
+}
+.form-group.has-error .Select-placeholder {
+    color: #c19191
+}
+
+.form-group:last-child {
+    margin-bottom: 0
+}
+
+#calculator-form h2 > span {
+    color: white;
+    background-color: #506A85;
+    padding: 10px 20px;
+}
+
+.panel-check {
+    background-color: #E9F5FE
+}
+.panel-check .check * {
+    font-size: 105%;
+    line-height: 150%;
+}
+.panel-check > .panel-body {
+    padding: 15px
+}
+.panel-check .check {
+    border: 5px solid #afd5f1;
+    padding: 20px;
+    /* height: 350px; */
+    position: relative
+}
+.panel-check .check .check-stack-1 {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.panel-check .check .check-stack-2 {
+    z-index: 2
+}
+.panel-check .check .water-mark {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-check .check .water-mark span {
+    color: rgba(4, 139, 234, .1);
+    font-size: 48px;
+    transform: rotate(-15deg);
+}
+.check .address p {
+    margin-bottom: 0
+}
+.check .address {
+    margin-bottom: 15px
+}
+.check .border-bottom {
+    border-bottom: 1px solid #b9d1e2
+}
+.check .line {
+    display: flex;
+    margin-bottom: 30px;
+}
+.check .line:last-child {
+    margin-bottom: 0
+}
+.check .line > .flex-grow,
+.panel-check .flex-grow {
+    flex-grow: 1
+}
+.check .amount-box {
+    border: 1px solid #b9d1e2;
+    padding: 0 15px;
+}
+.check .signature {
+    font-family: 'Homemade Apple', 'Zeyda', cursive;
+    padding-left: 10vw;
+}
+.check sup, .check sub {
+    font-size: 80% !important
+}
+
+.panel-check .table h3 {
+    margin: 15px 0 5px
+}
+.panel-check .table td {
+    padding-left: 30px;
+}
+.panel-check .table td,
+.panel-check .table th {
+    border: none;
+    padding: 0;
+}
+.panel-check .quarterly-payments {
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #b9d1e2;
+    padding: 20px 15px;
+    margin-top: 15px
+}
+.panel-check .quarterly-payments h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.panel-check .quarterly-payments .payment-dates {
+    margin-left: 15px
+}
+.panel-check .quarterly-payments .payment-dates p {
+    margin-bottom: 0
+}
+.flex {
+    display: flex
+}
+
+@media (min-width: 768px) {
+    .check-margin {
+        margin: 25px
+    }
+    .panel-check .quarterly-payments {
+        padding: 20px 40px
+    }
+}

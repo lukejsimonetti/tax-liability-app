@@ -1,0 +1,16 @@
+{
+  "socialSecurityMax": 128400,
+  "additionalMedicareMin": {
+    "married": 250000,
+    "notMarried": 200000
+  },
+  "socialSecurityRate": {
+    "nonMinister": 6.2,
+    "minister": 12.4
+  },
+  "medicareRate": {
+    "nonMinister": 1.45,
+    "minister": 2.9
+  },
+  "additionalMedicareRate": 0.9
+}
