@@ -43,7 +43,7 @@ const Form = props => {
 								<Col md={6} className="inner-right inner-left outer-bottom-xs" style={{ zIndex: 1 }} >
 
 									<h2 className="text-center"><span>About You</span></h2>
-
+									<br/>
 									<FormGroup controlId="minister">
 										<ControlLabel>Are you an ordained Minister?</ControlLabel>
 										<YesNoGroup
@@ -93,7 +93,7 @@ const Form = props => {
 								<Col md={6} className="inner-right inner-left outer-bottom-xs border-left">
 
 									<h2 className="text-center"><span>About Your Taxes</span></h2>
-
+									<br/>
 									<FormGroup controlId="filingStatus">
 										<ControlLabel>What's your filing status?</ControlLabel>
 										<ReactSelect
@@ -158,8 +158,7 @@ const Form = props => {
 									</FormGroup>
 
 								</Col>
-
-								<Col sm={12} className="text-center" >
+								<Col sm={12} className="text-center" style={{marginTop: 20}}>
 									<Button className="btn-large" bsStyle="success" onClick={props.calculateButton} style={{ whiteSpace: 'pre-wrap' }} >Calculate now</Button>
 								</Col>
 							</Row>

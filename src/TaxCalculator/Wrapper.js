@@ -150,12 +150,14 @@ class TaxCalcWrapper extends Component {
 					handleChange={this.handleChange}
 					calculateButton={this.calculateButton}
 				/>
+				<br/>
 				<ReportBreakdown
 					state={this.state}
 					showResults={this.state.showResults}
 					annualIncome={this.state.annualIncome}
 					payFrequency={this.state.payFrequency}
 				/>
+				<br/>
 				<Check
 					state={this.state}
 					showResults={this.state.showResults}

@@ -17,7 +17,7 @@
 
 #calculator-form h2 > span {
     color: white;
-    background-color: #506A85;
+    background-color: #77a9dc;
     padding: 10px 20px;
 }
 
@@ -46,7 +46,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-}
+}   
 .panel-check .check .check-stack-2 {
     z-index: 2
 }

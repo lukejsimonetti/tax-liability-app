@@ -65,7 +65,7 @@ const Check = props => {
                     </div>
                     <div className="check-stack-2">
                         <div className="address">
-                            <p><strong>The Best Church in Town</strong></p>
+                            <p><strong>Your Employer</strong></p>
                             <p>123 Main St.</p>
                             <p>Anywhere, USA</p>
                         </div>
