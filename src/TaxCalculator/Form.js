@@ -40,6 +40,21 @@ const Form = props => {
 					<Row>
 						<Col sm={10} md={12} className="center-block" >
 							<Row>
+								<Col sm={12}>
+								<br/>
+								<br/>
+								<h1 className="text-center">
+									Tax Liability Calculator
+								</h1>
+								<h4 className="text-center">
+									Input your annual income below to calculate your estimated 2018 tax liability.
+								</h4>
+								<br/>
+								<br/>
+								<br/>
+								</Col>
+							</Row>
+							<Row>
 								<Col md={6} className="inner-right inner-left outer-bottom-xs" style={{ zIndex: 1 }} >
 
 									<h2 className="text-center"><span>About You</span></h2>
